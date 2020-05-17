@@ -1,0 +1,233 @@
+\documentclass[10pt]{amsart}
+\usepackage[colorlinks=true]{hyperref}
+
+
+\title{Weekly Report}
+\date{\today}
+\author{Li Jiang}%TODO use your name
+
+\begin{document}
+\null
+\vfill
+\maketitle
+
+\section{2020, MAY 3th Weekly Report }
+\subsection{Project ongoing}
+\begin{itemize}
+	\item Linear NN: Complete the experiments of 0 and 1 in MNIST. Come up with 3 possible ways of new training algorithms, complete  the experiments of 2 of those 3 methods. Try using regression to implement the new training algorithms, but didn't find a proper dataset. Discuss  with Prof. Xu.  ({\color{blue} 12h})
+\end{itemize}
+\subsection{Plan for next week}
+\begin{itemize}
+	\item Linear NN: Implement the 3rd training algoritm. Complete the report of new training algorithm experiments.
+\end{itemize}
+
+
+\section{2020, APR 26th Weekly Report }
+\subsection{Project ongoing}
+\begin{itemize}
+	\item Linear NN: Complete the experiments of linear NN with  linear MNIST dataset using full GD.  Write down the algorithms of coordinate descent, analyse my numerical results in the report. Discuss with Prof. Xu. ({\color{blue} 12h})
+\end{itemize}
+\subsection{Plan for next week}
+\begin{itemize}
+	\item Linear NN: Complete the experiments of 0 and 1 in MNIST. Find a regression example to observe if such phonomenon still ocurr.
+\end{itemize}
+
+
+
+\section{2020, APR 19th Weekly Report }
+\subsection{Project ongoing}
+\begin{itemize}
+	\item Linear NN: Complete the experiments of linear NN with  linear MNIST dataset using SGD.  Testing the efficiency of coordinate desent. Discuss with Prof. Xu. Discuss wih Zhenghan Fang. ({\color{blue} 12h})
+\end{itemize}
+\subsection{Plan for next week}
+\begin{itemize}
+	\item Linear NN: Using full gradient descent to do some experiments with linear MNIST. Think about why deeper linear NN converge faster and write a report.
+\end{itemize}
+
+\section{2020, APR 12th Weekly Report }
+\subsection{Project ongoing}
+\begin{itemize}
+	\item Linear NN: Complete the experiments of linear NN with MNIST dataset. Compare the result when adding more linear layers  to a single layer linear network. Discuss with Prof. Xu. ({\color{blue} 12h})
+	\item Linear NN: Reading MIT paper of proving local minima are all global. Not finished yet.
+\end{itemize}
+\subsection{Plan for next week}
+\begin{itemize}
+	\item Linear NN: Do some experiments of Linear NN with linear MNIST dataset.
+	\item 497slides: adding some numerical result of binary LR in slides. adding kernel methods in slides.
+	
+\end{itemize}
+
+\section{2020, APR 5th Weekly Report }
+\subsection{Project ongoing}
+\begin{itemize}
+\item {\color{red} LR and SVM: Complete some comments about some thoughts in building a metrc in image classification in 06DL.} ({\color{blue} 4h})Discuss with Jonathan. Discuss with Prof. Xu about notes three times. ({\color{blue} 3h})
+\item Linear NN: discuss with Zhenghan Fang about his result. ({\color{blue} 1h})
+\end{itemize}
+\subsection{Plan for next week}
+\begin{itemize}
+	\item Linear NN: Do some experiments of Linear NN and compare the speed of convergence of single layer and multilayer.
+	
+\end{itemize}
+
+\section{2020, Mar 29th Weekly Report }
+\subsection{Project ongoing}
+\begin{itemize}
+	\item LR and SVM: Think about what metric should be used in the classfication of images, basically in the assumption of banach space.({\color{blue} 4h}) Try to write a abstract theorem or something, but have not completed yet.({\color{blue} 2h})
+	{\color{red} \item 497slides: Add relation between LR and SVM in 497-Slides.}({\color{blue} 1h})
+\end{itemize}
+\subsection{Plan for next week}
+\begin{itemize}
+	\item LR and SVM: Write some comments about some thoughts in building a metrc in image classification in 06DL. Discuss with Jonathan.
+	\item Do some experiments of LR and SVM to be the examples of bunary LR and SVM.
+	
+\end{itemize}
+
+\section{2020, Mar 22th Weekly Report }
+\subsection{Project ongoing}
+\begin{itemize}
+	\item LR and SVM: Read ''The Implicit Bias of Gradient Descent on Separable Data''  in a quick way. ({\color{blue} 3h}) Discuss with Prof.Xu and Jonathan about the metric in image classification. ({\color{blue} 2h})
+	{\color{red} \item 497slides: Fix the slides of binary LR and SVM according to the comments of Prof.Xu.} ({\color{blue} 4h})
+\end{itemize}
+\subsection{Plan for next week}
+\begin{itemize}
+	\item LR and SVM: Think about what metric should be used in the classfication of images.
+\end{itemize}
+
+
+\section{2020, Mar 14th Weekly Report }
+\subsection{Project ongoing}
+\begin{itemize}
+	\item {\color{red} LR and SVM: complete the background knowledge of distance in Banach space.}({\color{blue} 4h})
+	\item {\color{red} 497slides: complete the examples in binary SVM and binary LR.}({\color{blue} 4h})
+\end{itemize}
+\subsection{Plan for next week}
+\begin{itemize}
+	\item LR and SVM: read paper ''The Implicit Bias of Gradient Descent on Separable Data'', figure out why GD path can also converge to max margin solution.
+\end{itemize}
+
+\section{2020, Mar 7th Weekly Report }
+\subsection{Project ongoing}
+\begin{itemize}
+	\item {\color{red} LR and SVM: complete the relation between geometric margin and margin in 06DL, including the equivalence between those two when $k = 2$ and geometric margin can dominate margin.}({\color{blue} 6h})
+	\item {\color{red} 497slides: discuss with Juncai and modify my part of slides. } ({\color{blue} 3h})
+\end{itemize}
+\subsection{Plan for next week}
+\begin{itemize}
+	\item LR and SVM: add the background knowledge of distance in Banach space.
+	\item 497slides: add some examples in binary SVM and binary LR.
+\end{itemize}
+
+\section{2020, Feb 29th Weekly Report }
+\subsection{Project ongoing}
+\begin{itemize}
+	\item LR and SVM: Discuss with Prof.Xu and Jonathan to get some advice on modifying the content.
+	\item Regularization and generalization accuracy: 
+	\begin{enumerate}
+		\item Discuss with Prof. Xu and Huang Huang about generalization error. Use LR with L2 regularization to classify a linearly separable dataset, the generalization accuracy didn't increase (still 31\%). ({\color{blue} 5h})
+		\item Read 'Regularization and Variable Selection via the Elastic Net' , discuss with Lian Zhang about the choice of regularization term. ({\color{blue} 3h})
+		\item Read 'Surprises in High-Dimensional Ridgeless Least Squares Interpolation' and discuss with Lian Zhang. ({\color{blue} 4h})
+	\end{enumerate}
+\end{itemize}
+\subsection{Plan for next week}
+\begin{itemize}
+	\item LR and SVM: add the relation between geometric margin and margin in 06DL, including the equivalence between those two when $k = 2$ and geometric margin can dominate margin.
+	\item Regularization and generalization accuracy: try to understand the paper 'Surprises in High-Dimensional Ridgeless Least Squares Interpolation', discuss it with Lian Zhang and Jonathan.
+\end{itemize}
+
+\section{2020, Feb 22th Weekly Report }
+\subsection{Project ongoing}
+\begin{itemize}
+	\item {\color{red} 497slides: Completed a draft of binary LR, binary SVM, multiclass LR and multiclass SVM in 497slides.}({\color{blue} 12h})
+	\item {\color{red} LR and SVM: Simplied the proof of  LR convergence significantly.}({\color{blue} 24h})
+\end{itemize}
+\subsection{Plan for next week}
+\begin{itemize}
+	\item Training method for LR: Read the Chapter about regularization in ESL.
+\end{itemize}
+
+\section{2020, Jan 10th Weekly Report }
+\subsection{Ongoing Project}
+\begin{itemize}
+	\item 497slides: {\color{red} Complete the slide of binary logistic regression.}({\color{blue} 8h})
+	\item LR and SVM: {\color{red} Modify the notation in the definition of margin and the assumption of the max margin loss; complete the proof of the existence of max margin parameter when $\rho(\theta) = \|W\|$; simplify the proof of lemmas and the main theorem; add one lemma about the existence of the minima of the loss when $\rho(\theta) = \|\theta\|$} ({\color{blue} 8h})
+	\item New training method for LR: No update.
+\end{itemize}
+
+\subsection{Plan for next week}
+\paragraph{LR and SVM}
+
+Complete the proof of existence of the solution of the optimization problem when $\rho(\theta) = \|W\|$,modify the notation of loss function , think about the geometry interpretation when $k = 2$.
+\paragraph{New training method for LR}
+Read the review article of AMG.
+
+
+\section{2020, Jan 3th Weekly Report }
+
+\subsection{Ongoing Project}
+\begin{itemize}
+	\item LR and SVM: {\color{red} Change the notation in the definition of margin, think out the proof of the existence of max margin parameter when $\rho(\theta) = \|W\|$.} ({\color{blue} 8h})
+	\item New training method for LR: No update.
+	
+\end{itemize}
+
+\subsection{Plan for next week}
+\paragraph{LR and SVM}
+Complete the proof of existence of the max margin parameter when $\rho(\theta) = \|W\|$, modify the notation of loss function, think about the geometry interpretation when $k = 2$.
+\paragraph{New training method for LR}
+Read the review article of AMG.
+\section{November report}
+\begin{itemize}
+	\item Prepare a PPT and gave a presentation of power-grid project in PKU for some guests from power-grid system on 11.08. ({\color{blue} 8h})\\
+	\item {\color{red} Wrote the proof of the convergence of max margin loss for multicalss situation in 06DL} ({\color{blue} 24h}) and gave a seminar on 11.12.\\
+	\item Went to communicate with Prof. Ye in Guangzhou about the approxiamtion property of kernel methods. ({\color{blue} 12h})\\
+	\item Prepare a PPT and gave a technique presentation of power-grid project in Guangzhou for an internal check on 11.27. ({\color{blue} 4h})\\
+\end{itemize}
+
+\section{Dec 27th Weekly Report} %To add the time period to be reported.
+
+\subsection{Ongoing Project}
+\begin{itemize}
+	\item LR and SVM: {\color{red} Discuss with Prof.Xu and modify the texfile of LR and SVM} ({\color{blue} 4h})
+	\item New training method for LR: No update.
+	
+\end{itemize}
+
+\subsection{Plan for next week}
+\paragraph{LR and SVM}
+Keep updating the texfile of LR and SVM.
+
+\section{Dec 20th Weekly Report} %To add the time period to be reported.
+
+\subsection{Ongoing Project}
+\begin{itemize}
+	\item Power-grid Project: Participate in the final meeting of Power-grid Project in Guangzhou and  giving technique presentation.
+	\item LR and SVM: No update. 
+	\item New training method for LR: No update.
+	
+\end{itemize}
+
+\subsection{Highlights}
+\paragraph{Power-grid Project}
+This project is done.
+
+
+\subsection{Plan for next week}
+\paragraph{LR and SVM}
+Modify the texfile of relation between LR and SVM.
+
+\section{Dec 13th Weekly Report} %To add the time period to be reported.
+
+\subsection{Ongoing Project}
+\begin{itemize}
+	\item Power-grid Project: Prepare a PPT for the final technique presentation.
+	\item LR and SVM: No update. 
+
+\end{itemize}
+
+
+\subsection{Plan for next week}
+\paragraph{Power-grid Project}
+Participate in the final meeting of Power-grid Project in Guangzhou and  giving technique presentation.
+
+
+\end{document}
